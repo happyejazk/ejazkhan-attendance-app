@@ -103,7 +103,8 @@ if not st.session_state.logged_in:
             render_login_page()
 
     elif menu_choice == "📝 Register Yourself":
-        show_registration_page(st.session_state.user_email)
+        show_registration_page()
+        #show_registration_page(st.session_state.user_email)
 
 # Logged-In User Interface
 else:
